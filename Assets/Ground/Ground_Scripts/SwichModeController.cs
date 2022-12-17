@@ -9,8 +9,6 @@ public class SwichModeController : MonoBehaviour
     public GameObject player;
     public GameObject playerStartPos;
 
-    //public Transform playerStartPos1;
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,8 +31,6 @@ public class SwichModeController : MonoBehaviour
 
         if(Input.GetKeyUp(KeyCode.Keypad2)||Input.GetKeyUp(KeyCode.Alpha2))
         {
-            //pos = playerStartPos.transform.position;
-            //player.transform.position = new Vector3(pos.x, pos.y, pos.z);
             player.transform.position = playerStartPos.transform.position;
             boat.GetComponent<Rigidbody>().isKinematic = true;
             boat.GetComponent<BoatController>().enabled = false;
@@ -43,7 +39,6 @@ public class SwichModeController : MonoBehaviour
             player.SetActive(true);
             
             print(pos);
-            //print(player.transform.position);
         }
     }
 }
