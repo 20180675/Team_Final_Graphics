@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45327604, g: 0.4469418, b: 0.4398848, a: 1}
+  m_IndirectSpecularColor: {r: 0.4532761, g: 0.4469418, b: 0.43988478, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1284,7 +1284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175057962}
   - component: {fileID: 175057963}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1865,7 +1865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257533754}
   - component: {fileID: 257533755}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2120,7 +2120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277626093}
   - component: {fileID: 277626094}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3265,7 +3265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550351472}
   - component: {fileID: 550351473}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Boat_MapPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3685,7 +3685,7 @@ GameObject:
   - component: {fileID: 679339420}
   - component: {fileID: 679339423}
   - component: {fileID: 679339422}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: FPSMapPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4197,7 +4197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841903133}
   - component: {fileID: 841903134}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5296,7 +5296,7 @@ GameObject:
   - component: {fileID: 946404190}
   - component: {fileID: 953625372}
   - component: {fileID: 953625371}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -5315,7 +5315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 3385af30a76765241847799c1830f2eb, type: 2}
+  sharedProfile: {fileID: 11400000, guid: a7528091e4ef00642a493ff797f482cd, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -5335,7 +5335,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 953202490}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -5990,7 +5990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077195697}
   - component: {fileID: 1077195698}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Star_MapPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6780,7 +6780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298155142}
   - component: {fileID: 1298155143}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7466,7 +7466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637600371}
   - component: {fileID: 1637600372}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: HevenStairs_MapPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8991,7 +8991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918691109}
   - component: {fileID: 1918691110}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9511,7 +9511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092346503}
   - component: {fileID: 2092346504}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Trashcan_Mappoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9672,7 +9672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122636964}
   - component: {fileID: 2122636965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
