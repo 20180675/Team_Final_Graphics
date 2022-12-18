@@ -16,6 +16,6 @@ public class Scene_Under_to_Ground : MonoBehaviour
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(SceneToLoad.name);
+        SceneManager.LoadScene("Ground");
     }
 }

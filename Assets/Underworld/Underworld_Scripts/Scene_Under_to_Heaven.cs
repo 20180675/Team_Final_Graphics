@@ -16,6 +16,6 @@ public class Scene_Under_to_Heaven : MonoBehaviour
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(SceneToLoad.name);
+        SceneManager.LoadScene("Heaven");
     }
 }
