@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Text: "<\uC774\uC608\uC6D0>\r\n1. BirdAnim: Bird animation\uC801\uC6A9 ([P]\uD0A4:
     Play, [S]\uD0A4: Stop)\r\n2. boat: boat\uC5D0 rigidbody\uB97C \uC0AC\uC6A9\uD558\uC5EC
     \uBCF4\uD2B8\uB97C \uC6C0\uC9C1\uC784, \uBCF4\uD2B8 \uC2DC\uC57C\uB294 MultipurposeCameraRig
-    \uC0AC\uC6A9\r\n3. SwichMode: 1\uBC88-boat \uC2DC\uC810, 2\uBC88-FPS \uC2DC\uC810
+    \uC0AC\uC6A9\r\n3. SwichMode: [1]\uD0A4-boat \uC2DC\uC810, [2]\uD0A4-FPS \uC2DC\uC810
     \uC804\uD658\uC744 \uD1B5\uD574 \uC790\uC720\uB86D\uAC8C \uC6C0\uC9C1\uC784\r\n4.
     waterfall2 : collider\uB97C \uC0AC\uC6A9\uD558\uC5EC \uC9C0\uD558\uC52C\uC73C\uB85C
     \uC804\uD658\n5. UI: scroll veiw \uC801\uC6A9\r\n"
