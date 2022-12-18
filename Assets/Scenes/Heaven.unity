@@ -655,7 +655,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\uC2A4\uD1A0\uB9AC\uC758 \uADF9\uC801\uC778 \uD45C\uD604\uC744 \uC704\uD574
     \uBE44\uD604\uC2E4\uC801\uC774\uACE0 \uD654\uC0AC\uD55C \uBD84\uC704\uAE30\uB97C
-    \uAD6C\uD604\r\n \uD3C9\uD654\uB86D\uACE0 \uC544\uB984\uB2E4\uC6B4 \uD48D\uACBD
+    \uAD6C\uD604\r\n\uD3C9\uD654\uB86D\uACE0 \uC544\uB984\uB2E4\uC6B4 \uD48D\uACBD
     \uC18D\uC744 \uAC77\uB2E4 \uBCF4\uBA74 \uC228\uACA8\uC9C4 \uC7A5\uCE58\uB4E4\uC744
     \uD655\uC778 \uAC00\uB2A5\r\n"
 --- !u!222 &331990487
@@ -1765,12 +1765,12 @@ MonoBehaviour:
     \uD3ED\uD3EC Shader\r\n8. Image Effect Shader\uC640 C# \uC2A4\uD06C\uB9BD\uD2B8([C#]PostEffects)
     FPS \uCE74\uBA54\uB77C\uC5D0 \uC801\uC6A9 : \r\n[\uC0C9\uBC18\uC804 \uD6A8\uACFC(Invert
     Color) / \uAE4A\uC774(Depth, \uAC70\uB9AC) \uD6A8\uACFC / \uBB34\uCC44\uC0C9(GrayScale)
-    \uD6A8\uACFC / \uC774\uBBF8\uC9C0 \uD569\uC131(Blend) \uD6A8\uACFC /  \uC774\uBBF8\uC9C0
-    \uD569\uC131(Blend) \uD6A8\uACFC / \uC774\uBBF8\uC9C0 \uC624\uBC84\uB808\uC774(Overlay)
-    \uD6A8\uACFC / \uBA40\uD2F0 \uD328\uC2A4(Multi-Pass) \uD6A8\uACFC / \uBA85\uB3C4(Brightness),
-    \uB300\uBE44(Contrast), \uCC44\uB3C4(Saturation) \uD6A8\uACFC] \r\n* \uD55C \uC2A4\uD06C\uB9BD\uD2B8\uC5D0
-    \uC791\uC131\uD558\uACE0 \uC801\uC6A9(Inspector\uC5D0\uC11C \uC870\uC815\uD558\uC5EC
-    \uD6A8\uACFC \uC801\uC6A9 \uD655\uC778)\r\n9. Sky \uC801\uC6A9\r\n"
+    \uD6A8\uACFC / \uC774\uBBF8\uC9C0 \uD569\uC131(Blend) \uD6A8\uACFC / \uC774\uBBF8\uC9C0
+    \uC624\uBC84\uB808\uC774(Overlay) \uD6A8\uACFC / \uBA40\uD2F0 \uD328\uC2A4(Multi-Pass)
+    \uD6A8\uACFC / \uBA85\uB3C4(Brightness), \uB300\uBE44(Contrast), \uCC44\uB3C4(Saturation)
+    \uD6A8\uACFC] \r\n* \uD55C \uC2A4\uD06C\uB9BD\uD2B8\uC5D0 \uC791\uC131\uD558\uACE0
+    \uC801\uC6A9(Inspector\uC5D0\uC11C \uC870\uC815\uD558\uC5EC \uD6A8\uACFC \uC801\uC6A9
+    \uD655\uC778)\r\n9. Sky \uC801\uC6A9\r\n"
 --- !u!222 &930519768
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5850,7 +5850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6430987957208767360}
   m_LocalRotation: {x: 0.7069991, y: 0.012340746, z: -0.012340746, w: 0.7069991}
-  m_LocalPosition: {x: 0, y: 30, z: 0}
+  m_LocalPosition: {x: 0, y: 35, z: 0}
   m_LocalScale: {x: 30, y: 120, z: 1}
   m_Children: []
   m_Father: {fileID: 6824585128413222907}
