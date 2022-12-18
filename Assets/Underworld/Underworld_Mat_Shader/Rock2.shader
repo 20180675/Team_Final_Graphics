@@ -15,7 +15,7 @@ Shader "My/Rock2"
 
         sampler2D _MainTex1;
         sampler2D _MainTex2;
-        //float _LerpRange;
+
 
         struct Input
         {
@@ -26,13 +26,10 @@ Shader "My/Rock2"
         void surf(Input IN, inout SurfaceOutputStandard o)
         {
             fixed4 c = tex2D(_MainTex1, IN.uv_MainTex1);
-            fixed4 d = tex2D(_MainTex2, IN.uv_MainTex2); // 알파 값이 있는 이미지
-            //o.Albedo = c.rgb;
-            //o.Albedo = lerp(c.rgb, d.rgb, _LerpRange);
+            fixed4 d = tex2D(_MainTex2, IN.uv_MainTex2); 
 
             o.Albedo = lerp(c.rgb, d.rgb, d.a);
-            //o.Albedo = lerp(c.rgb, d.rgb, 1-d.a);
-            //o.Albedo = lerp(d.rgb, c.rgb, d.a);            
+         
 
             o.Alpha = c.a;
         }
