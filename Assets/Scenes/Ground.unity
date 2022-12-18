@@ -2322,7 +2322,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\uD658\uACBD \uC624\uC5FC\uC73C\uB85C \uC778\uD574 \uB354\uB7EC\uC6CC\uC9C4
     \uC9C0\uC0C1\uC744 \uD45C\uD604\r\n\uC4F0\uB808\uAE30\uD1B5\uC744 \uB118\uC5B4\uB728\uB9AC\uBA70
-    \uC9C0\uC0C1\uC744 \uD6FC\uC190"
+    \uC9C0\uC0C1\uC744 \uD6FC\uC190\n\n[U]\uD0A4: \uD31D\uC5C5\uCC3D\n\uB9C8\uC6B0\uC2A4
+    \uC6B0\uD074\uB9AD: Trashcan, StreetLightSwitch\nboat - [1]\uD0A4: boat \uC2DC\uC810,
+    [2]\uD0A4: FPS \uC2DC\uC810\nWindElect_Outline_Discounti - [J]\uD0A4: Play ,
+    [K]\uD0A4: 2\uBC30\uC18D, [L]\uD0A4: Stop\nWindElect2_DiscontinuousTint - [N]\uD0A4:
+    Play , [B]: \uC5ED\uC8FC\uD589 , [M]\uD0A4: Stop"
 --- !u!222 &300672357
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6318,6 +6322,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112076545}
   m_CullTransparentMesh: 1
+--- !u!1 &1127811528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127811529}
+  - component: {fileID: 1127811531}
+  - component: {fileID: 1127811530}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1127811529
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127811528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1845983551}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -200, y: 490}
+  m_SizeDelta: {x: 1500, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1127811530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127811528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: " [U]\uD0A4: \uD31D\uC5C5\uCC3D\n\uB9C8\uC6B0\uC2A4 \uC6B0\uD074\uB9AD:
+    Trashcan, StreetLightSwitch\nboat - [1]\uD0A4: boat \uC2DC\uC810, [2]\uD0A4:
+    FPS \uC2DC\uC810\nWindElect_Outline_Discounti - [J]\uD0A4: Play , [K]\uD0A4:
+    2\uBC30\uC18D, [L]\uD0A4: Stop\nWindElect2_DiscontinuousTint - [N]\uD0A4: Play
+    , [B]: \uC5ED\uC8FC\uD589 , [M]\uD0A4: Stop\n"
+--- !u!222 &1127811531
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127811528}
+  m_CullTransparentMesh: 1
 --- !u!1 &1172556346
 GameObject:
   m_ObjectHideFlags: 0
@@ -7152,8 +7239,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455507038}
-  m_LocalRotation: {x: 0.40218624, y: 0.596544, z: 0.46527743, w: -0.51565343}
-  m_LocalPosition: {x: 588.1016, y: -656.90564, z: 234.12659}
+  m_LocalRotation: {x: -0.003845617, y: 0.022117449, z: 0.0057871733, w: -0.99973124}
+  m_LocalPosition: {x: 475.85, y: -19.86, z: 679.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8958,6 +9045,7 @@ RectTransform:
   m_Children:
   - {fileID: 1460613125}
   - {fileID: 203224015}
+  - {fileID: 1127811529}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
