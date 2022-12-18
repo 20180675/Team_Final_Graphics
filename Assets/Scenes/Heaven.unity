@@ -5237,20 +5237,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6717044640063268569, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
---- !u!114 &6196421647416397120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6196421647416397121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba77b805981ede34f8780ceac338e470, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnSpeed: 1000
-  accellerateSpeed: 1000
 --- !u!1 &6196421647416397121
 GameObject:
   m_ObjectHideFlags: 0
@@ -5260,7 +5246,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6824585128413222907}
-  - component: {fileID: 6196421647416397120}
   - component: {fileID: 6196421647416397151}
   - component: {fileID: 6196421647416397122}
   m_Layer: 0
@@ -5282,8 +5267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f37ef4b718dea004392a8f9123001cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 10
-  accellerateSpeed: 1
+  turnSpeed: 500
+  accellerateSpeed: 500
 --- !u!54 &6196421647416397151
 Rigidbody:
   m_ObjectHideFlags: 0
