@@ -5247,7 +5247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6824585128413222907}
   - component: {fileID: 6196421647416397151}
-  - component: {fileID: 6196421647416397122}
+  - component: {fileID: 6196421647416397123}
   m_Layer: 0
   m_Name: boat
   m_TagString: Player
@@ -5255,7 +5255,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6196421647416397122
+--- !u!114 &6196421647416397123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5264,7 +5264,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6196421647416397121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f37ef4b718dea004392a8f9123001cfa, type: 3}
+  m_Script: {fileID: 11500000, guid: ba77b805981ede34f8780ceac338e470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 500
